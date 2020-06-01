@@ -43,3 +43,54 @@ print()
 
 
 # String indexing
+a = 'Hello world'
+print(a[0])
+print(a[4])
+print(a[-1])
+print(a[:5])
+print(a[6:])
+print(a[3:8])
+print(a[-5:])
+print()
+
+
+# String operations
+'''Concatenation, length, membership and replication'''
+print('Hello ' + 'World')
+print(len('Hello'))
+print('l' in 'Hello')
+print('h' not in 'Hello')
+print('Yes' * 5)
+print()
+
+
+# String methods
+'''stripping, case conversion, replacing text'''
+print(' hello '.strip())
+print(' hello'.lstrip())
+print('hello '.rstrip())
+print('Tenet'.lower())
+print('tenet'.upper())
+print('tenet'.title())
+print('Hello Nolan'.replace('Hello', 'Hola'))
+print()
+
+'''More string methods:
+
+s.endswith(suffix)     # Check if string ends with suffix
+s.find(t)              # First occurrence of t in s
+s.index(t)             # First occurrence of t in s
+s.isalpha()            # Check if characters are alphabetic
+s.isdigit()            # Check if characters are numeric
+s.islower()            # Check if characters are lower-case
+s.isupper()            # Check if characters are upper-case
+s.join(slist)          # Joins lists using s as delimiter
+s.lower()              # Convert to lower case
+s.replace(old,new)     # Replace text
+s.rfind(t)             # Search for t from end of string
+s.rindex(t)            # Search for t from end of string
+s.split([delim])       # Split string into list of substrings
+s.startswith(prefix)   # Check if string starts with prefix
+s.strip()              # Strip leading/trailing space
+s.upper()              # Convert to upper case
+'''
